@@ -28,5 +28,9 @@ class ViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         print(#function)
     }
+    override func present(_ viewControllerToPresent: UIViewController, animated flag: Bool, completion: (() -> Void)? = nil) {
+        //
+    }
 }
+
 
